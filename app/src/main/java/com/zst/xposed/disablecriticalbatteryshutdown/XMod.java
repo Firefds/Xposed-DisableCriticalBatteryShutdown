@@ -67,7 +67,6 @@ public class XMod implements IXposedHookLoadPackage, IXposedHookZygoteInit {
         });
     }
 
-    @SuppressWarnings("deprecation")
     private void notifyUser() {
         mNumber++;
         Notification.Builder build = new Notification.Builder(mContext);
